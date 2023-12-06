@@ -1,16 +1,16 @@
 <script>
-export default {
-  name: 'AppTitle',
-  data() {
-    return {
-      titolo: 'La mia prima app con VITE!',
-    };
-  },
-};
+export default {};
 </script>
 
 <template>
-  <h1>{{ titolo }}</h1>
+  <h2>La mia prima app con Vite!</h2>
 </template>
 
-<style scoped></style>
+<style scoped>
+h2 {
+  color: #ff8906;
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 50px;
+}
+</style>
